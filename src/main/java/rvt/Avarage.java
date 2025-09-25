@@ -8,6 +8,13 @@ public class Avarage {
         int a = 5;
         int b = 25; 
         System.out.println(b / Double.valueOf(a));
+        
+        System.out.println("Give me number 1:");
+        int Anumber = scanner.nextInt();
+        System.out.println("Give me number 2:");
+        int Bnumber = scanner.nextInt();
+        System.out.println(Anumber + " + " + Bnumber + " = " + (Anumber + Bnumber));
+
     }
     }
 
