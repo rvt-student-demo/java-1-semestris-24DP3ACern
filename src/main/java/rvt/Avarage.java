@@ -8,6 +8,6 @@ public class Avarage {
         int a = 5;
         int b = 25; 
         System.out.println(b / Double.valueOf(a));
-        String e = "ergergerg";
     }
-}
+    }
+
