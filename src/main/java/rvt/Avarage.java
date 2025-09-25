@@ -15,10 +15,10 @@ public class Avarage {
        System.out.println("enter potater count (10 per potat): ");
        int countPot = Integer.valueOf(scanner.nextLine());
        if (countOr != countAp){
-        System.out.println("check your money, too little oranges");
+        System.out.println("check your bag, too little oranges");
        }
        else if(countAp != (2*countPot)) {
-        System.out.println("check your money, too little potaters");
+        System.out.println("check your bag, too little potaters");
        }
        else {
         System.out.println("just enough");
