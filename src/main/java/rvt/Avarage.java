@@ -18,6 +18,7 @@ public class Avarage {
         System.out.println("check your bag, too little oranges");
        }
        else if(countAp != (2*countPot)) {
+
         System.out.println("check your bag, too little potaters");
        }
        else {
