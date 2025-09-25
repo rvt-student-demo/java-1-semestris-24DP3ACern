@@ -5,16 +5,25 @@ import java.util.Scanner;
 public class Avarage {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = 5;
-        int b = 25; 
-        System.out.println(b / Double.valueOf(a));
-        
-        System.out.println("Give me number 1:");
-        int Anumber = scanner.nextInt();
-        System.out.println("Give me number 2:");
-        int Bnumber = scanner.nextInt();
-        System.out.println(Anumber + " + " + Bnumber + " = " + (Anumber + Bnumber));
-
+       int priceAp = 10;
+       int priceOr = 15;
+       int pricePot = 5;
+       System.out.println("enter apple count (10 per apple): ");
+       int countAp = Integer.valueOf(scanner.nextLine());
+       System.out.println("enter orange count (15 per orange): ");
+       int countOr = Integer.valueOf(scanner.nextLine());
+       System.out.println("enter potater count (10 per potat): ");
+       int countPot = Integer.valueOf(scanner.nextLine());
+       if (countOr != countAp){
+        System.out.println("check your money, too little oranges");
+       }
+       else if(countAp != (2*countPot)) {
+        System.out.println("check your money, too little potaters");
+       }
+       else {
+        System.out.println("just enough");
+       };
+       System.out.println("that will be: " + (priceAp*countAp+priceOr*countOr+pricePot*countPot));
     }
     }
 
