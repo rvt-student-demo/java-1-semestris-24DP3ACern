@@ -13,6 +13,6 @@ public class App {
     for (int i = num1; i <= numm2; i++) {
         summ = summ + i;
     }
-    System.out.println("sum is " + summ);
+    System.out.println("idk math so yo sum is gonna be " + summ);
         }
     }   
