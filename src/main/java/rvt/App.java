@@ -59,7 +59,7 @@ public class App {
         int[] valA   = { 13, -22,  82,  17}; 
     int[] valB   = {  0,   0,   0,   0};
     for (int i = 0; i < valB.length; i++){
-        valB[i] = valA[i] ;
+        valB[i] = 25 - valA[i];
     }
     // Put values into valB so that the sum of the values
     // in corresponding cells of valA and valB is 25.
@@ -75,7 +75,16 @@ public class App {
         
     }
     public static void ex5(){
-        
+        int[] val = {0, 1, 2, 3}; 
+    int temp;
+ 
+    System.out.println( "Original Array: " 
+        + val[0] + " " + val[1] + " " + val[2] + " " + val[3] );
+ 
+    // reverse the order of the numbers in the array
+
+    System.out.println( "Reversed Array: " 
+        + val[0] + " " + val[1] + " " + val[2] + " " + val[3] );
     }
 
     }   
