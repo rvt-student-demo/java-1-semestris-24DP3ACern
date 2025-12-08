@@ -12,7 +12,7 @@ public class delikatesi {
             System.out.println("ekspress piegade (0/1): ");
             int exp = scanner.nextInt();
             double piegade; 
-            if (cena <10.0){
+            if (cena < 10.0){
                 piegade = 2.0;
             } else{
                 piegade = 0.0;
